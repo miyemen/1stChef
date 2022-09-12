@@ -95,8 +95,7 @@ ul li a {
     }
 }
 @media (max-width:950px) { 
-    .content .image,
-    .content .text {
+    .content .image, .content .text {
         width: 80%;
     }
 }
