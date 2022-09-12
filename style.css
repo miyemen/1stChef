@@ -45,6 +45,7 @@ ul li a {
     align-items: center;
     width: 80%;
     margin: auto;
+    overflow: hidden;
 }
 
 .content .text {
