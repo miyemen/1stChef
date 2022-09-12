@@ -45,7 +45,6 @@ ul li a {
     align-items: center;
     width: 80%;
     margin: auto;
-    overflow: hidden;
 }
 
 .content .text {
@@ -89,14 +88,12 @@ ul li a {
     }
 }
 
-@media (max-width:950px) {
-    .content,
-    header {
+@media (max-width:950px) { .content, header {
         flex-direction: column;
         justify-content: center;
     }
     .content .image,
     .content .text {
-        width: 50%;
+        width: 80%;
     }
 }
