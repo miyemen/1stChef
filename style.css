@@ -88,10 +88,13 @@ ul li a {
     }
 }
 
-@media (max-width:950px) { .content, header {
+@media (max-width:950px) { 
+    .content, header {
         flex-direction: column;
         justify-content: center;
     }
+}
+@media (max-width:950px) { 
     .content .image,
     .content .text {
         width: 80%;
