@@ -1,27 +1,35 @@
 * {
     padding: 0;
-    width: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 body {
-    background: #FF4500;
+    background: orangered;
 }
 
-body ::after {}
+.foot {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 10;
+    width: 80%;
+    text-align: right;
+}
 
 .container {
+    background: #000;
     min-height: 100vh;
     width: 100%;
-    background: #000;
-    overflow: hidden;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     margin: auto;
-    align-items: center;
     padding: 20px 0;
 }
 
@@ -34,9 +42,9 @@ ul li {
 }
 
 ul li a {
-    color: whitesmoke;
+    color: #fff;
     text-decoration: none;
-    margin: 0 6px;
+    margin: 0 20px;
 }
 
 .content {
@@ -45,57 +53,35 @@ ul li a {
     align-items: center;
     width: 80%;
     margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
 }
 
 .content .text {
-    width: 65%;
-    color: whitesmoke;
+    width: 40%;
+    color: #fff;
 }
 
 .content .text h2 {
-    font-size: 32px;
+    font-size: 31px;
     text-align: right;
-   
+    color: orange;
 }
 
 .content .text p {
+    text-align: right;
     font-size: 18px;
     margin: 20px 0;
-    text-align: right;
 }
 
 .content .text a {
-    text-align: right;
     text-decoration: none;
     background: #fff;
-    color: #111;
-    padding: 10px 30px;
+    color: #000;
+    padding: 8px 15px;
     border-radius: 20px;
 }
 
 .content .image {
-    width: 30%;
-}
-
-.content .image img {
-    width: 325px;
-    padding: 40 0;
-}
-
-@media (min-width:950px) and (max-width:1150px) {
-    .content .image img {
-        width: 170px;
-    }
-}
-
-@media (max-width:950px) { 
-    .content, header {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-@media (max-width:950px) { 
-    .content .image, .content .text {
-        width: 80%;
-    }
+    width: 400px;
 }
