@@ -2,3 +2,81 @@
     padding: 0;
     width: 0:
 }
+
+body {
+    background: orangered;
+}
+
+body ::after {}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 40px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text {
+    width: 65%;
+    color: whitesmoke;
+}
+
+.content .text h2 {
+    font-size: 32px;
+    text-align: right;
+    font-style: naskh;
+}
+
+.content .text p {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: right;
+}
+
+.content .text a {
+    text-align: right;
+    text-decoration: none;
+    background: #fff;
+    color: #111;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.content .image {
+    width: 30%;
+}
+
+.content .image img {
+    width: 325px;
+}
